@@ -11,18 +11,18 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
-require("lazy").setup({
+require('lazy').setup({
   spec = {
     -- NOTE: The import below will automatically add your own plugins, configuration, etc from `lua/plugins/*.lua`
     -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
     -- Or use telescope!
     -- In normal mode type `<space>sh` then write `lazy.nvim-plugin`
     -- you can continue same window with `<space>sr` which resumes last telescope search
-    { import = "plugins" },
+    { import = 'plugins' },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "catppuccin" } },
+  install = { colorscheme = { 'catppuccin' } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 }, {
