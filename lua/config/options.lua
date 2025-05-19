@@ -3,6 +3,9 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+-- Set 24-bit color
+vim.opt.termguicolors = true
+
 -- Indentation Settings
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
