@@ -13,6 +13,7 @@ dashboard.section.buttons.val = {
   dashboard.button('f', icons.ui.open_folder .. '  Explorer', '<cmd>Explore<cr>'),
   dashboard.button('c', icons.ui.config .. '  Neovim config', '<cmd>e ~/.config/nvim/lua/ | cd %:p:h<cr>'),
   dashboard.button('l', '󰒲  Lazy', '<cmd>Lazy<cr>'),
+  dashboard.button('m', icons.ui.lsp_info .. ' Mason', '<cmd>Mason<cr>'),
   dashboard.button('q', icons.ui.close .. '  Quit NVIM', ':qa<CR>'),
 }
 
