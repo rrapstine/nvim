@@ -1,5 +1,6 @@
 return {
-  'Exafunction/codeium.vim',
+  enabled = false,
+  'Exafunction/windsurf.vim',
   event = 'BufEnter',
 
   config = function()
